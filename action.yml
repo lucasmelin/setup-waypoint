@@ -1,0 +1,17 @@
+name: "Setup Waypoint"
+description: "Install a specific version of HashiCorp Waypoint and add it to the PATH"
+author: "Lucas Melin"
+branding:
+  icon: "layers"
+  color: "blue"
+inputs:
+  version:
+    required: true
+    description: "The Waypoint version to install"
+    default: "latest"
+outputs:
+  waypoint-version:
+    description: "The version of HashiCorp Waypoint that was installed."
+runs:
+  using: "node16"
+  main: "dist/index.js"
