@@ -13,5 +13,5 @@ outputs:
   waypoint-version:
     description: "The version of HashiCorp Waypoint that was installed."
 runs:
-  using: "node16"
+  using: "node20"
   main: "dist/index.js"
