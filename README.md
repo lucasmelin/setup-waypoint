@@ -1,3 +1,7 @@
+This project is no longer actively maintained since, [as of Oct 11th 2023](https://www.hashicorp.com/blog/a-new-vision-for-hcp-waypoin), HashiCorp Waypoint Community Edition is no longer actively maintained.
+
+---
+
 <h1 align="center"> setup-waypoint GitHub Action </h1>
 
 <p align="center">
